@@ -1,0 +1,58 @@
+body, html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+}
+
+#container {
+  margin: auto;
+}
+
+.burger-component {
+  width: 200px;
+  border-radius: 4px;
+}
+
+#topBun {
+  height: 80px;
+  background-color: peru;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#greenLettuce {
+  height: 10px;
+  background-color: green;
+}
+
+#tomato {
+  height: 10px;
+  background-color: red;
+}
+
+#cheese {
+  height: 10px;
+  background-color: yellow;
+}
+#pattie {
+  height: 15px;
+  background-color: brown;
+}
+
+#bottomBun {
+  height: 30px;
+  background-color: peru;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#burger-text {
+  width: 200px;
+  text-align: center;
+}
